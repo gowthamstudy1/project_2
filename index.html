@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <meta charset="utf-8" />
@@ -15,11 +14,30 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://kenwheeler.github.io/slick/slick/slick-theme.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://kenwheeler.github.io/slick/slick/slick.css"
+      rel="stylesheet"
+    />
+    <!-- <link
+      href="https://kenwheeler.github.io/slick/css/prism.css"
+      rel="stylesheet"
+    /> -->
+    <!-- <link
+      href="https://kenwheeler.github.io/slick/css/style.css"
+      rel="stylesheet"
+    /> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <div class="wrapper">
+      <!--**********************************************************SECTION 1*************************************************************-->
       <div class="section_1">
         <div class="navigation_bar p_30 d_f jc_sa ai_c m_a">
           <div class="fs_36"><a href="#" class="cl_pri">App</a></div>
@@ -58,6 +76,92 @@
           </div>
         </div>
       </div>
+
+      <!--**********************************************************SECTION 2*************************************************************-->
+      <div class="section2 pt_60 pl_180 pr_180">
+        <div class="ta_c">
+          <h1 class="second_head m_0">
+            <span class="lblue fs_26 fw_300">PERFECT</span>
+            <span class="dark fs_36">FEATURES</span>
+          </h1>
+          <span class="dark fw_300 fs_14">Only necessary</span>
+        </div>
+        <div class="features mt_110 row">
+          <div class="row_ele">
+            <div>
+              <img src="/css/img/icon-1.png" />
+            </div>
+            <div class="ml_50">
+              <h3 class="dark">Usability</h3>
+              <p class="ldark fs_14">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+                cupiditate
+              </p>
+            </div>
+          </div>
+          <div class="row_ele">
+            <div>
+              <img src="/css/img/icon-2.png" />
+            </div>
+            <div class="ml_50">
+              <h3 class="dark">Parallax Effect</h3>
+              <p class="ldark fs_14">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+                cupiditate
+              </p>
+            </div>
+          </div>
+          <div class="row_ele">
+            <div>
+              <img src="/css/img/icon-3.png" />
+            </div>
+            <div class="ml_50">
+              <h3 class="dark">Unlimited Colors</h3>
+              <p class="ldark fs_14">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+                cupiditate
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ta_c mt_110">
+          <h1 class="second_head m_0 lblue fs_26">SIMPLE WIDGETS</h1>
+          <span class="dark fw_300 fs_14">Drag and Drop</span>
+        </div>
+        <div class="carousel mt_60">
+          <div class="prev"><img src="css/img/left-arrow.jpg" /></div>
+          <div>
+            <div class="image_container">
+              <div class="carousel_item">
+                <img src="css/img/smartphone-2.png" />
+              </div>
+              <div class="carousel_item">
+                <img src="css/img/iphone.png" />
+              </div>
+              <div class="carousel_item">
+                <img src="css/img/smartphone-2.png" />
+              </div>
+              <div class="carousel_item">
+                <img src="css/img/smartphone-2.png" />
+              </div>
+            </div>
+          </div>
+          <div class="next"><img src="css/img/right-arrow.jpg" /></div>
+        </div>
+      </div>
+      <!--***************************************SECTION 3 *********************************************************-->
     </div>
   </body>
+  <script>
+    $(".image_container").slick({
+      autoplay: true,
+      autoplaySpeed: 1000,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      dots: true,
+      prevArrow: $(".prev"),
+      nextArrow: $(".next"),
+    });
+  </script>
 </html>
