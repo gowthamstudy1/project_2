@@ -27,6 +27,27 @@ body {
   background-size: 100% 100%;
   height: 810px;
 }
+.section_5 {
+  background-image: url(img/download-section-bg.jpg);
+}
+.section_6 {
+  background-color: #2e3149;
+}
+.container p {
+  max-width: 350px;
+  line-height: 1.7;
+}
+.curved_bg {
+  background-image: url(img/curved-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 350px;
+}
+.part {
+  max-width: 1100px;
+  margin: auto;
+}
 /* colors */
 .cl_pri {
   color: var(--pri);
@@ -48,6 +69,9 @@ body {
 .pt_30 {
   padding-top: 30px;
 }
+.pt_50 {
+  padding-top: 50px;
+}
 .pt_60 {
   padding-top: 60px;
 }
@@ -63,6 +87,9 @@ body {
 .pr_180 {
   padding-right: 180px;
 }
+.pb_80 {
+  padding-bottom: 80px;
+}
 
 .p_0 {
   padding: 0;
@@ -70,6 +97,9 @@ body {
 /* margins */
 .mt_110 {
   margin-top: 110px;
+}
+.mt_200 {
+  margin-top: 200px;
 }
 .mt_60 {
   margin-top: 60px;
@@ -87,6 +117,9 @@ body {
 }
 .ml_50 {
   margin-left: 50px;
+}
+.ml_100 {
+  margin-left: 100px;
 }
 /* border */
 
@@ -106,6 +139,9 @@ body {
 .jc_c {
   justify-content: center;
 }
+.jc_sb {
+  justify-content: space-between;
+}
 /* align items */
 .ai_c {
   align-items: center;
@@ -119,11 +155,16 @@ body {
 .fw_400 {
   font-weight: 400;
 }
-
+.fw_b {
+  font-weight: bolder !important;
+}
 /* font size */
 
 .fs_14 {
-  font-size: 14px;
+  font-size: 14px !important;
+}
+.fs_15 {
+  font-size: 15px;
 }
 .fs_16 {
   font-size: 16px;
@@ -142,6 +183,17 @@ body {
 /*text-align*/
 .ta_c {
   text-align: center;
+}
+.ta_l {
+  text-align: left;
+}
+
+/*float*/
+.f_r {
+  float: right;
+}
+.f_l {
+  float: left;
 }
 
 /* buttons */
@@ -247,6 +299,55 @@ body {
 
 .slick-dots {
   bottom: -50px !important;
+}
+
+.part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text_part {
+  max-width: 450px;
+  line-height: 2;
+  font-weight: 500;
+}
+.part img {
+  width: 250px;
+}
+.part .social a {
+  text-align: center;
+  padding: 15px;
+  width: 50px;
+  box-shadow: 0 0 0 5px #f9f9f9;
+  border-radius: 50%;
+  color: #c3cfe5;
+  border: 1px solid #ededed;
+  position: absolute;
+}
+.review_container p {
+  max-width: 450px;
+  font-weight: 500;
+}
+.review_container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.border_line {
+  height: 1px;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #434769;
+  display: block;
+  margin-top: 50px;
+}
+.footer_copyright {
+  color: #565b87;
+  text-align: center;
+  font-size: 13px;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 /* media queries */
 
