@@ -432,7 +432,7 @@ body {
     font-size: 40px;
   }
   .container {
-    max-width: 85%;
+    max-width: 90%;
     color: var(--dark);
   }
   .review_container p {
