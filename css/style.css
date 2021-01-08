@@ -71,7 +71,7 @@ body {
   margin: auto;
 }
 .container p {
-  width: 400px;
+  width: 32%;
   line-height: 1.7;
   line-break: strict;
 }
@@ -446,6 +446,9 @@ body {
     text-align: center;
     margin-left: 0;
   }
+  .container p {
+    width: 50%;
+  }
 }
 @media all and (max-width: 770px) {
   .nav_items {
@@ -485,6 +488,7 @@ body {
   }
   .container p {
     margin: auto;
+    width: 100%;
   }
   .download_options {
     margin-top: 30px;
