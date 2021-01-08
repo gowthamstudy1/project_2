@@ -326,6 +326,11 @@ body {
 .part img {
   width: 250px;
 }
+.social {
+  display: flex;
+  justify-content: start;
+  width: fit-content;
+}
 .part .social a {
   text-align: center;
   padding: 15px;
@@ -334,7 +339,6 @@ body {
   border-radius: 50%;
   color: #c3cfe5;
   border: 1px solid #ededed;
-  position: absolute;
 }
 .review_container p {
   max-width: 450px;
@@ -442,9 +446,10 @@ body {
     align-items: center;
     text-align: center;
   }
-  .part .social a {
-    left: 150px;
+  .social {
+    margin: auto;
   }
+
   .review_container p {
     max-width: 300px;
   }
@@ -462,6 +467,13 @@ body {
     margin: 0;
     padding: 0 30px;
   }
+  .section_2 {
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+  .row_text {
+    margin-left: 30px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -475,9 +487,20 @@ body {
     font-size: 30px;
   }
 }
-@media screen and(max-width:350px) {
+@media screen and (max-width: 350px) {
+  .slick-slide img {
+    width: 150px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
   .navigation_bar {
     padding: 5px 30px;
+  }
+  .section_2 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
