@@ -372,6 +372,9 @@ body {
   margin-bottom: 30px;
 }
 
+.download_options img {
+  width: 147px;
+}
 /* media queries */
 
 @media (min-width: 1400px) {
