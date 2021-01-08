@@ -436,7 +436,7 @@ body {
     color: var(--dark);
   }
   .review_container p {
-    max-width: 350px;
+    max-width: 500px;
   }
   .row_ele {
     flex-direction: column;
@@ -476,6 +476,17 @@ body {
   }
   .row {
     flex-direction: column;
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .container p {
+    margin: auto;
+  }
+  .download_options {
+    margin-top: 25px;
   }
 }
 @media all and (max-width: 480px) {
