@@ -407,12 +407,12 @@ body {
 1025px — 1200px: Desktops, large screens
 1201px and more —  Extra large screens, TV */
 
-@media screen and (max-width: 1200px) {
+@media all and (max-width: 1200px) {
   .img_mobile {
     right: 100px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
   /* .main {
     margin-top: 10px;
     padding: 0 50px;
@@ -446,7 +446,7 @@ body {
     margin-left: 0;
   }
 }
-@media screen and (max-width: 770px) {
+@media all and (max-width: 770px) {
   .nav_items {
     display: none;
   }
@@ -478,7 +478,7 @@ body {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 480px) {
+@media all and (max-width: 480px) {
   .main h1 {
     text-align: center;
     font-size: 30px;
