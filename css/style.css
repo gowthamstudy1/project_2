@@ -434,6 +434,9 @@ body {
     max-width: 85%;
     color: var(--dark);
   }
+  .container p {
+    width: 500px;
+  }
   .review_container p {
     max-width: 350px;
   }
