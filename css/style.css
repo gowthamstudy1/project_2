@@ -73,6 +73,7 @@ body {
 .container p {
   max-width: 400px;
   line-height: 1.7;
+  line-break: strict;
 }
 .part {
   max-width: 1000px;
@@ -433,9 +434,6 @@ body {
   .container {
     max-width: 85%;
     color: var(--dark);
-  }
-  .container p {
-    max-width: 500px;
   }
   .review_container p {
     max-width: 350px;
