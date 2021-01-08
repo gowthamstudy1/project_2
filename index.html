@@ -38,15 +38,15 @@
   <body>
     <div class="wrapper">
       <!--**********************************************************SECTION 1*************************************************************-->
-      <div class="section_1">
+      <div class="section_1 section" id="home">
         <div class="navigation_bar p_30 d_f jc_sa ai_c m_a">
           <div class="fs_36"><a href="#" class="cl_pri">App</a></div>
           <div class="fs_14">
             <ul class="nav_items d_f jc_sa">
-              <li><a href="#" class="active">Home</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Reviews</a></li>
-              <li><a href="#">Download</a></li>
+              <li><a href="#home" class="active">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+              <li><a href="#download">Download</a></li>
             </ul>
           </div>
           <div class="social_media d_f">
@@ -55,8 +55,8 @@
             <a href="#" class="fa fa-twitter"></a>
           </div>
         </div>
-        <div class="main m_a mt_110 pr_100 pl_100">
-          <h1 class="fw_300 fs_50">
+        <div class="main m_a mt_40 pl_50 pr_50">
+          <h1 class="fw_300 fs_55">
             A Free HTML5 App Template Built with Bootstrap 4
           </h1>
           <p class="fw_400">
@@ -71,15 +71,15 @@
               value="Features"
             />
           </div>
-          <div>
+          <div class="banner_image_container">
             <img src="css/img/phone-image.png" class="img_mobile m_a" />
           </div>
         </div>
       </div>
 
       <!--**********************************************************SECTION 2*************************************************************-->
-      <div class="section_2 pt_60 pl_180 pr_180">
-        <div class="ta_c mt_60">
+      <div class="section_2 section mt_110" id="features">
+        <div class="ta_c m_a">
           <h1 class="second_head m_0">
             <span class="lblue fs_26 fw_300">PERFECT</span>
             <span class="dark fs_36">FEATURES</span>
@@ -91,7 +91,7 @@
             <div>
               <img src="css/img/icon-1.png" />
             </div>
-            <div class="row_text ml_50">
+            <div class="row_text ml_30">
               <h3 class="dark">Usability</h3>
               <p class="ldark fs_14">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
@@ -103,7 +103,7 @@
             <div>
               <img src="css/img/icon-2.png" />
             </div>
-            <div class="row_text ml_50">
+            <div class="row_text ml_30">
               <h3 class="dark">Parallax Effect</h3>
               <p class="ldark fs_14">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
@@ -115,7 +115,7 @@
             <div>
               <img src="css/img/icon-3.png" />
             </div>
-            <div class="row_text ml_50">
+            <div class="row_text ml_30">
               <h3 class="dark">Unlimited Colors</h3>
               <p class="ldark fs_14">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
@@ -137,10 +137,10 @@
         </section>
       </div>
 
-      <div class="curved_bg mt_110"></div>
+      <div class="curved_bg mt_110 section"></div>
       <!--***************************************SECTION 3 *********************************************************-->
-      <div class="section_3 pl_180 pr_180 mt_-100">
-        <div class="part">
+      <div class="section_3 section mt_-100">
+        <div class="part m_a">
           <div class="image_part">
             <img src="css/img/smartphone-2.png" />
           </div>
@@ -158,7 +158,7 @@
             </div>
           </div>
         </div>
-        <div class="part">
+        <div class="part m_a">
           <div class="image_part">
             <img src="css/img/smartphone-2.png" />
           </div>
@@ -176,7 +176,7 @@
             </div>
           </div>
         </div>
-        <div class="part">
+        <div class="part m_a">
           <div class="image_part">
             <img src="css/img/smartphone-2.png" />
           </div>
@@ -198,19 +198,19 @@
 
       <!-- *************************************************SECTION-4************************************************************* -->
 
-      <div class="section_4 pl_180 pr_180 mt_60 pt_60">
+      <div class="section_4 section mt_60 pt_60" id="reviews">
         <div class="ta_c">
           <h2 class="second_head m_0 lblue">WHAT PEOPLE ARE SAYING</h2>
           <span class="dark fw_300 fs_14">Reviews</span>
         </div>
-        <div class="d_f jc_c flexw_w pt_60">
+        <div class="d_f jc_sa flexw_w pt_60">
           <div class="review_container">
             <img class="f_l quotes" src="css/img/quotes-1.jpg" />
             <p class="dark pt_30">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
               similique quasi.
             </p>
-            <span class="dark fw_300 fs_14">John Doe</span>
+            <span class="author dark fw_300 fs_14 d_b">John Doe</span>
             <img class="f_r quotes" src="css/img/quotes-2.jpg" />
           </div>
           <div class="review_container">
@@ -219,42 +219,42 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
               similique quasi.
             </p>
-            <span class="dark fw_300 fs_14">Someone</span>
+            <span class="author dark fw_300 fs_14 d_b">Someone</span>
             <img class="f_r quotes" src="css/img/quotes-2.jpg" />
           </div>
         </div>
       </div>
 
       <!-- **********************************SECTION_5************************************ -->
-      <div class="section_5 pl_180 pr_180 pt_50 pb_80">
-        <div class="container mt_200 ml_100">
-          <h2 class="second_head">HOW TO DOWNLOAD THE APP?</h2>
-          <p class="fs_15 fw_300">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
-            suscipit, similique animi saepe, ipsam itaque, tempore minus maxime
-            pariatur error unde fugit tenetur.
-          </p>
-          <div class="download_options">
-            <a href="#" class="ml_10">
-              <img src="css/img/app-store-icon.png" />
-            </a>
-            <a href="#" class="ml_10"
-              ><img src="css/img/google-play-icon.png"
-            /></a>
+      <div class="section_5 section pt_50 pb_80" id="download">
+        <div>
+          <div class="container mt_200">
+            <h2 class="second_head">HOW TO DOWNLOAD THE APP?</h2>
+            <p class="fs_15 fw_300">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+              suscipit, similique animi saepe, ipsam itaque, tempore minus
+              maxime pariatur error unde fugit tenetur.
+            </p>
+            <div class="download_options">
+              <a href="#" class="mr_10">
+                <img src="css/img/app-store-icon.png" />
+              </a>
+              <a href="#"><img src="css/img/google-play-icon.png" /></a>
+            </div>
           </div>
         </div>
       </div>
       <!-- ****************************************************SECTION_6********************************** -->
-      <div class="section_6">
+      <div class="section_6 section">
         <div class="footer_container">
           <div class="navigation_bar p_30 d_f jc_sa ai_c m_a">
             <h1 class="fs_36"><a href="#" class="cl_pri">App</a></h1>
             <div class="fs_14">
               <ul class="nav_items d_f jc_sa">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#" class="active">Download</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#download" class="active">Download</a></li>
               </ul>
             </div>
             <div class="social_media d_f">
@@ -273,39 +273,33 @@
     </div>
   </body>
   <script>
-    $(() => {
-      var createSlick = () => {
-        let slider = $(".slider");
+    var createSlick = () => {
+      let slider = $(".slider");
 
-        slider.not(".slick-initialized").slick({
-          infinite: true,
-          dots: true,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          responsive: [
-            {
-              breakpoint: 1250,
-              settings: {
-                slidesToShow: 2,
-              },
+      slider.not(".slick-initialized").slick({
+        infinite: true,
+        dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
             },
-            {
-              breakpoint: 800,
-              settings: {
-                slidesToShow: 1,
-              },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
             },
-          ],
-        });
-      };
-
-      createSlick();
-
-      $(window).on("resize orientationchange", function () {
-        $(".js-slider").slick("resize");
+          },
+        ],
       });
-    });
+    };
+    createSlick();
+    $(window).on("resize orientationchange", createSlick);
   </script>
 </html>
