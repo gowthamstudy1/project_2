@@ -71,10 +71,11 @@ body {
   margin: auto;
 }
 .container p {
-  max-width: 400px;
+  width: 400px;
   line-height: 1.7;
   line-break: strict;
 }
+
 .part {
   max-width: 1000px;
   margin: auto;
@@ -486,7 +487,7 @@ body {
     margin: auto;
   }
   .download_options {
-    margin-top: 25px;
+    margin-top: 30px;
   }
 }
 @media all and (max-width: 480px) {
