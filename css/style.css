@@ -132,7 +132,60 @@
   color: #c3cfe5;
   border: 1px solid #ededed;
 }
+.image_part {
+  position: relative;
+}
+.key1 {
+  background: #fcec64;
+  padding: 19px;
+  width: 35px;
+  display: inline-block;
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 14px;
+  box-sizing: initial;
+  position: absolute;
+  font-weight: 700;
+  right: -30px;
+  top: 140px;
+}
 
+.key2 {
+  color: #fff;
+  background: #6ca3ff;
+  padding: 18px;
+  width: 35px;
+  display: inline-block;
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 14px;
+  box-sizing: initial;
+  position: absolute;
+  left: -35px;
+  bottom: 100px;
+  font-weight: 700;
+}
+.key3 {
+  color: #7e8c91;
+  background: #b8faee;
+  padding: 19px;
+  width: 35px;
+  display: inline-block;
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 14px;
+  box-sizing: initial;
+  position: absolute;
+  font-weight: 700;
+  right: -30px;
+  top: 140px;
+}
 /**********************************************SECTION 4*************************************/
 .review_container p {
   max-width: 450px;
